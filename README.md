@@ -96,3 +96,10 @@ https://github.com/SrinivasaRaghavanSelvam/validaide-test-assignment
 ## 📄 Test Plan
 
 For a detailed explanation of the testing scope, approach, tools, and test scenarios, please refer to the [Test Plan](docs/Test_Plan.md).
+
+
+## 🖼️ Test Execution Screenshot
+
+Below is a screenshot of the test results confirming successful execution of all scenarios:
+
+![Behat Test Results](assets/test-results.png)
