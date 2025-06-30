@@ -33,8 +33,6 @@ The following test scenarios were implemented as per the assignment requirements
 
 ## 🧪 Test Results
 
-![Test Results](assets/test-results.png)
-
 ```
 6 scenarios (6 passed)
 31 steps (31 passed)
@@ -45,58 +43,56 @@ Each scenario executed successfully using Behat, verifying both UI behavior and 
 
 ---
 
-## 🧰 Prerequisites
+## 🛠️ Setup & Execution Instructions
 
-Make sure the following are installed on your machine:
+### 🔧 Prerequisites
+- PHP 8.x
+- Composer
+- Selenium Server (or a Selenium-compatible driver)
+- ChromeDriver or GeckoDriver
+- Git
 
-- **PHP** (>= 8.0)
-- **Composer** (Dependency manager for PHP)
-- **Git**
-- **Google Chrome** (or Firefox)
-- **ChromeDriver** or **GeckoDriver**
-- **Selenium Server** (or a Selenium-compatible WebDriver)
-- Optional: **VS Code** or any PHP-compatible code editor
+### 📥 Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SrinivasaRaghavanSelvam/validaide-test-assignment.git
+   cd validaide-test-assignment
+   ```
 
----
-
-## 📥 How to Clone This Repository
-
-```bash
-git clone https://github.com/SrinivasaRaghavanSelvam/validaide-test-assignment.git
-cd validaide-test-assignment
-```
-
----
-
-## ⚙️ Setup Instructions
-
-1. Install PHP dependencies with Composer:
+2. Install dependencies via Composer:
    ```bash
    composer install
    ```
 
-2. Start the Selenium server in the background (headless or visible).
+3. Start Selenium server (headless or visible as preferred).
 
-3. Run the test suite:
-   ```bash
-   vendor/bin/behat
-   ```
+### ▶️ Run Tests
+```bash
+vendor/bin/behat
+```
+
+Tests will launch a browser session (or headless if configured) and execute all defined features and scenarios.
 
 ---
 
 ## 🧾 Notes
-
-- Tests use Gherkin syntax in `.feature` files for clarity and maintainability.
-- PHP step definitions are implemented in `FeatureContext.php`.
-- Includes logic for dynamic price validation during checkout.
-- Fully automated and extensible for future test scenarios.
+- Tests are organized using Gherkin syntax for clarity.
+- Step definitions are implemented in `FeatureContext.php`.
+- Includes dynamic price handling and checkout validation.
+- Fully automated and can be extended easily for more scenarios.
 
 ---
 
 ## 🔗 GitHub Repo
-
-[GitHub – validaide-test-assignment](https://github.com/SrinivasaRaghavanSelvam/validaide-test-assignment)
+https://github.com/SrinivasaRaghavanSelvam/validaide-test-assignment
 
 ---
 
 © 2025 | Automation Test Suite by Srinivasa Raghavan Selvam
+
+
+---
+
+## 📄 Test Plan
+
+For a detailed explanation of the testing scope, approach, tools, and test scenarios, please refer to the [Test Plan](docs/Test_Plan.md).
