@@ -55,7 +55,7 @@ Each scenario executed successfully using Behat, verifying both UI behavior and 
 ### 📥 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SrinivasaRaghavanSelvam/validaide-test-assignment.git
+   git clone https://github.com/SrinivasaRaghavanSelvam/Validaide-Test-Assignment-1.git
    cd validaide-test-assignment
    ```
 
@@ -84,7 +84,7 @@ Tests will launch a browser session (or headless if configured) and execute all 
 ---
 
 ## 🔗 GitHub Repo
-https://github.com/SrinivasaRaghavanSelvam/validaide-test-assignment
+https://github.com/SrinivasaRaghavanSelvam/Validaide-Test-Assignment-1
 
 ---
 
